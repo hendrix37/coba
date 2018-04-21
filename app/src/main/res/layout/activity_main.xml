@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.horox.myapplication.MainActivity">
+
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:id="@+id/linearatas"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editemail"
+            android:hint="@string/email_telepon_username"/>
+        <EditText
+            android:id="@+id/editpassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/password"/>
+        <Button
+
+            android:text="@string/login"
+            android:id="@+id/btnlogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_orange"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearbawah"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/login_cepat_dengan"/>
+        <Button
+            android:text="@string/login_dengan_sms"
+            android:id="@+id/btnloginsms"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_google"
+            android:background="#ffffff"
+            android:layout_marginBottom="10dp"
+            />
+        <Button
+            android:background="@color/colorAccent"
+            android:drawableLeft="@drawable/ic_facebook"
+            android:text= "@string/login_dengan_fb"
+            android:id="@+id/btnloginfb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>" />
+
+
+</RelativeLayout>

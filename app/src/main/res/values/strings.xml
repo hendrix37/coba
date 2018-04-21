@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login_cepat_dengan">login cepat dengan</string>
+    <string name="login_dengan_sms">login dengan sms</string>
+    <string name="login_dengan_fb">login dengan FB</string>
+    <string name="email_telepon_username">Email/Telepon/Username</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+</resources>
